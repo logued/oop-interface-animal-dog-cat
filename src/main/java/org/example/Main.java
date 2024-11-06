@@ -45,6 +45,16 @@ public class Main {
 // 6. Update the loop so that the legCount( )is called for all animals.
 // 7. Run and check output.
 
-
+//TODO
+// 8. Create a class called AnimalContainer that provides the following services:#
+// - has a constructor that instantiates an arraylist object
+// - uses an ArrayList to store Animal objects
+// - has an add() method that accepts and Animal and adds it to teh list
+// - has a printAnimals() method that will print all animals showing
+//   their sound() and their leg count.
+// - has a get(index i) method that returns the Animal at index i, or null
+//   if out of bounds.  When you call this from main() how will you determine
+//   which type of animal has been returned.  (Hint: Types and casts)
+//
 
 
