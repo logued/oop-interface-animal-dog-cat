@@ -22,6 +22,12 @@ public class Main {
         myCat.sound(); // Outputs: Meow
 
         // This is useful for creating lists of objects.
+        // Note that the code block below depends ONLY on the Animal type
+        // even though it can deal with Dog and Cat objects.
+        // i.e. the references are all of type Animal.
+        // This means that the code below is dependent only on the Animal interface
+        // and does not depend on Dog or Cat.  This reduced coupling between components.
+        //
         ArrayList<Animal> listOfAnimals  = new ArrayList<>();
         listOfAnimals.add(myDog);
         listOfAnimals.add(myCat);
