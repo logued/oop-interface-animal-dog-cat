@@ -55,13 +55,21 @@ public class Main {
 // 8. Create a class called AnimalContainer that provides the following:
 // - declares a field "animalsList" of type reference to list of animals
 // - a constructor that instantiates the ArrayList
-// - an add() method that accepts and Animal and adds it to the list
-// - a printAnimals() method that will print all animals showing
+// - an add() method that accepts an Animal and adds it to the list
+// - a printAnimals() method that will print all animals in the list showing
 //   their sound() and their leg count.
-// - has a get(index i) method that returns the Animal at index i, or null
-//   if out of bounds.
-//  - When you call this get() from main() how will you determine
+// - has a getAnimal(index i) method that returns a reference to the Animal at index i,
+//   or null if index is out of bounds.
+//  - When you call this getAnimal() method in main() how will you determine
 //   which type of animal has been returned.  (Hint: Types and casts)
+// - Call getAnimal() and capture the returned value in a reference of type Animal.
+// - call the sound() and numLegs() methods on that reference
+// - Duck
+// - Add a new Duck class that implements Animal interface but also
+//  has a swim() method. Add a new duck to the AnimalContainer, and then retrieve that
+//  duck with the getAnimal() method, capturing the return value.
+//  Now, call the sound() method on the duck.
+//  call the swim() method on the duck.  What issues are there?
 //
 
 
